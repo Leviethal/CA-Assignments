@@ -1,0 +1,10 @@
+MOV AX, 0000h
+MOV DS, AX
+
+MOV SI, 4000h
+
+MOV AL, [SI]
+MOV BL, [SI+1]
+
+MOV [SI], BL
+MOV [SI+1], AL

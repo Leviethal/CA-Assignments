@@ -1,0 +1,8 @@
+MOV AX, 0000h
+MOV DS, AX
+
+MOV SI, 3000h
+
+MOV AL, [SI]   
+INC AL
+MOV [SI], AL

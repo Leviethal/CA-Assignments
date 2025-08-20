@@ -1,0 +1,3 @@
+MOV AH, 0x55h
+MOV BH, 0xAAh
+XOR AH, BH

@@ -1,0 +1,3 @@
+MOV AH, 0xAB
+MOV BH, 0x5C
+AND AH, BH
