@@ -27,7 +27,7 @@ check_vowel:
 
     MOV R2, #'C'       
     STRB R2, [R0]      
-    B done
+    B halt
 
 vowel:
     MOV R2, #'V'        

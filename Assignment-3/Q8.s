@@ -20,7 +20,7 @@ end_found:
 
 reverse_loop:
     CMP R1, R2            
-    BHS done             
+    BHS halt        
 
     LDRB R3, [R1]         
     LDRB R4, [R2]        

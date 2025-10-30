@@ -11,7 +11,7 @@ _start:
 
 copy_loop:
     CMP  R2, #0          
-    BEQ  done            
+    BEQ  halt            
 
     LDR  R3, [R0], #4   
     STR  R3, [R1], #4    

@@ -5,7 +5,7 @@ _start:
 
 loop:
     CMP R0, #0            
-    BEQ done
+    BEQ halt
 
     AND R2, R0, #1        
     ADD R1, R1, R2        
