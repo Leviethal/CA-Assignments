@@ -1,4 +1,8 @@
+.data
+char: .byte 'd'
+
 .global _start
+
 _start:
     LDR R0, =char       
     LDRB R1, [R0]                 
@@ -7,7 +11,4 @@ _start:
     STRB R1, [R0]        
 
 halt:
-    B halt               
-
-.data
-char: .byte 'd'          
+    B halt
