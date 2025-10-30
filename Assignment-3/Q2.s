@@ -20,7 +20,7 @@ pop_loop:
     BEQ halt
     POP {R4}
     SUB R1, R1, #1
-    STR R3, [R0, R1, LSL #2]
+    STR R4, [R0, R1, LSL #2]
     B pop_loop
 
 halt:
