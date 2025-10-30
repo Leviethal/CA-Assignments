@@ -1,5 +1,5 @@
 .data
-src: .word 10, 20, 30, 40, 50   @ source data (5 words)
+src: .word 10, 20, 30, 40, 50
 dst: .space 20
 
 .global _start
